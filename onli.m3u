@@ -1,0 +1,391 @@
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
+#EXTINF:-1,1+1
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/643a6a45df37d06ed999da38fd56d5749d37829b.m3u8
+
+#EXTINF:-1 tvg-name="2+2",2p2
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/dd7eba360352f5011f33bd1468adf4fbf545fd72.m3u8
+
+#EXTINF:-1,24 Канал
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/9ec5a8fa9c9d5fabb5cf349a26ef749897159712.m3u8
+
+#EXTINF:-1,5 канал 
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/02b6064e67deef03c8ef664e67c8d886baa797e9.m3u8
+
+#EXTINF:-1,Hromadske
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/f00854b1bd362b61bea1979bb198f7ca67d655f0.m3u8
+
+#EXTINF:-1,ICTV
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/958dd28da5dd2462fa3afe88aff7fbc9e7a38ef2.m3u8
+
+#EXTINF:-1,UA: Культура
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/57e941c9fd9f4348e8e26b58459092c054f49f63.m3u8
+
+#EXTINF:-1,UA: Львів
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/b1dd3cb88194be0f9208080301716f59918402ee.m3u8
+
+#EXTINF:-1,UA: Перший
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/05887838e9b712effd48f3f22f0742fa01e6092e.m3u8
+
+#EXTINF:-1,Бигуди
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/f789286554995a979ae91a34d162da92c26e92ec.m3u8
+
+#EXTINF:-1,Еспресо ТВ
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/a60ba3ae7a19fb79b761c1aaf90d1ce6ec09d4ea.m3u8
+
+#EXTINF:-1,Индиго
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/d20200a6935c3826c51bbc8aa9f5538564fdbd91.m3u8
+
+#EXTINF:-1,Интер
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/f55c8a6d0e912c84dd2e4d2f2c5f9e7789816172.m3u8
+
+#EXTINF:-1,К1
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/d9f095239de9b6a657da19033209f8f71cf3d025.m3u8
+
+#EXTINF:-1,К2
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/67060c7bfe3f96f5d60f194320d8aae84a944850.m3u8
+
+#EXTINF:-1,Мега
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/5bafde26f77634feeb798f2d4c4cbfb67cb7acd7.m3u8
+
+#EXTINF:-1,НЛО
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/4068bcf5086c535067bca51978e5f9f10e4e570c.m3u8
+
+#EXTINF:-1,Новий Канал
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/a535f2c703d5f468ebf915501f257beb2b0d04ff.m3u8
+
+#EXTINF:-1,НТА. Львів
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/7435cb1584fb3fb555ef675550f7a61fe970c9ef.m3u8
+
+#EXTINF:-1,НТН
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/9a9f9e47c0021151056962cda4ce141f73b09e02.m3u8
+
+#EXTINF:-1,Оце
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/3c54ac005e6be50c8a6d96bbf779122861dc6a7c.m3u8
+
+#EXTINF:-1,ПравдаТУТ
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/cfa532e164c9239a6c68c1ae8cff13017801fe9c.m3u8
+
+#EXTINF:-1,ПравдаТУТ Львів
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/74d6a36f5fd207cdfcf3bd751a1ee3f95bf441ba.m3u8
+
+#EXTINF:-1,Прямий
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/6ea4c3ac5571e2bfa45b99c376fc8120958dd52c.m3u8
+
+#EXTINF:-1,СТБ
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/0e34f29f762d50521395a4855d91bfd56bf90d13.m3u8
+
+#EXTINF:-1,ТЕТ
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/3ab6a29410feeb9bd2ee29b7eada3e8fb965347b.m3u8
+
+#EXTINF:-1,Україна
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/997eb77c237be13f48b89e0402e47f88fab941af.m3u8
+
+#EXTINF:-1,Україна 24
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/fd49f534ba00291a2164633e19a12b21b0166014.m3u8
+
+
+#EXTINF:-1,EWTN
+#EXTGRP:Релігійні
+http://playlist.hmara.tv/2285c77b/11f56dc73c31dd45c48b638bd1e8a9d0403c3e85.m3u8
+
+#EXTINF:-1,Перший Західний
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/fb840249d05f5792645159760a23b16b76cb0c25.m3u8
+
+#EXTINF:-1,ЕТНО КАНАЛ
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/cea3741285922c80db200acf9b442c105d1a2e7d.m3u8
+
+#EXTINF:-1,Глас
+#EXTGRP:Релігійні
+http://playlist.hmara.tv/2285c77b/cb308c0674f0936395fe65056fcabfdd4f4ad620.m3u8
+
+#EXTINF:-1,#НАШ
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/40896db36a93f25aa7138609990370048a5b5ffd.m3u8
+
+#EXTINF:-1,#НАШЕ MUSIC
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/7ce0567f8c8ac2a6d91a4b3950db018b10a7df02.m3u8
+
+#EXTINF:-1,Беларусь 24
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/8d4df933ea6e8dbd9358458fd4a70e99449497b9.m3u8
+
+#EXTINF:-1,Надія
+#EXTGRP:Релігійні
+http://playlist.hmara.tv/2285c77b/ae697e7cb7a8fe34938e8229e981c74d1c705011.m3u8
+
+#EXTINF:-1,Первый МЕТЕО
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/a2e6ac65a4096c5bfd408272e4273f0ced1bbae1.m3u8
+
+#EXTINF:-1,CNL
+#EXTGRP:Релігійні
+http://playlist.hmara.tv/2285c77b/41b4bdebf92082d480dddc8dcba8f37043d773d0.m3u8
+
+#EXTINF:-1,DaVinci Learning
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/4945607b62a7cefe4cd3a4920b78dd860fc7fe69.m3u8
+
+#EXTINF:-1,9 канал. Ізраїль
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/bb732193649442cc201e0cc4d39564b76c85be7f.m3u8
+
+#EXTINF:-1,Animal Planet
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/67d9e517ddc3427bb6c81f6f2017d43fb20eed92.m3u8
+
+#EXTINF:-1,Сонце
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/825e53cd2b37de309eedcf7a28c61d50c016c06d.m3u8
+
+#EXTINF:-1,Униан ТВ
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/8957d25ae3ec5e60cec246d9c4330d33905ae2b0.m3u8
+
+#EXTINF:-1,Ю
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/215cc423c73644dbbf12ae7785fe9c51ae452a0e.m3u8
+
+
+
+
+
+#EXTINF:-1,2х2
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/303d9992cd626c394ba187e0928790a0980b2d8d.m3u8
+
+#EXTINF:-1,34 Канал
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/67c2073a4caf48387219810bbbb4303e7569f3d9.m3u8
+
+#EXTINF:-1,36.6
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/5528e2f58eb28856d0243ee990c0784a1a9d912a.m3u8
+
+#EXTINF:-1,4 Канал
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/d4a61a2ed9eb28bc900012fa7e085ae42ecfb76a.m3u8
+
+#EXTINF:-1,CBS Reality
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/2ab975194bdefd7167bdd66f930172ab8604cd29.m3u8
+
+#EXTINF:-1,Docubox
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/0283947574a9488f26655e5274f8497f04f018b5.m3u8
+
+#EXTINF:-1,Enter-фильм
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/eaca1a58031b8583565dc43e34aeaa64e8ed47a4.m3u8
+
+#EXTINF:-1,Extreme Sports
+#EXTGRP:Спортивні
+http://playlist.hmara.tv/2285c77b/d577e70b7ac160eed7d081fd0fdf99630df02990.m3u8
+
+#EXTINF:-1,Flix Snip
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/2ee1b0e822b1a20309ba80e4b591a4aec874fe72.m3u8
+
+#EXTINF:-1,Food Network
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/af3d4ba18c40af1b9a2ba216f8e45649ccc16334.m3u8
+
+#EXTINF:-1,LRT Lituanica
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/a6fcfb9b1e7340d17de251ed78abe60b3aa1fe0f.m3u8
+
+#EXTINF:-1,News Network
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/1f121d0adc642c0e2f7e3b5cde8dc0defb56de4a.m3u8
+
+#EXTINF:-1,Outdoor
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/e237ca838a79d19e5f721e3dc253e8282e67d02e.m3u8
+
+#EXTINF:-1,Paramount Comedy
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/073ab32c04a166f3fb3a7310736c7fe2e4e71807.m3u8
+
+#EXTINF:-1,RCK TV
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/fa3ad53e03912547b6811e095eb72f1833cbf302.m3u8
+
+#EXTINF:-1,Rusong TV
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/a1aa734cbe81386a06cb9f25a4583cfb61c1486f.m3u8
+
+#EXTINF:-1,Rustavi 2
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/95f0f9c9af2891731fd2ef2e19572008f0f2bb5e.m3u8
+
+#EXTINF:-1,Sea TV
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/dc7ac0d9a579c5f991f846ea7192955dcac68f4d.m3u8
+
+#EXTINF:-1,TiJi
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/94c663ce13d50cc77e79ee86ae30bac55e2e2dac.m3u8
+
+#EXTINF:-1,Uaan TV
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/446a28388f1c2d03968854640ec980ca8722d926.m3u8
+
+#EXTINF:-1,UA|TV
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/d0b49c49ff5c115e383f3e763da257f2250f5774.m3u8
+
+#EXTINF:-1,Zik
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/3a24a8c64a24e3946ee69aee9811019e7dd28c7f.m3u8
+
+#EXTINF:-1,Zoom
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/ec3272d8215b230c96b3957e73c4567943365a01.m3u8
+
+#EXTINF:-1,Авто 24
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/cee071917985829e380e83a9939c305852ea5586.m3u8
+
+#EXTINF:-1,Апостроф
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/2ab059c1372bcfc158969c8b66f6d2efddd9a8f3.m3u8
+
+#EXTINF:-1,Дача
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/b21831bb244e20c38f5dbd6a1577954846d7eada.m3u8
+
+#EXTINF:-1,Детский мир/Телеклуб
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/5bd8ae6549fb3bc4dd70dfb7b1036f46a39f1239.m3u8
+
+#EXTINF:-1,Домашний
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/ebc5d42c6750d0a9f85829595b4dff5ee68cc574.m3u8
+
+#EXTINF:-1,Еврокино
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/3bde3b9e0e0ffbd592dffb5c86263022d86b1dd6.m3u8
+
+#EXTINF:-1,Живи!
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/2aa587975b416620f7f6a38c19fdf8c9c9576c1c.m3u8
+
+#EXTINF:-1,Київ TV
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/5e3ff07f4c7234abc72d992c76b495520d63ce7d.m3u8
+
+#EXTINF:-1,Кинокомедия
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/e8e1f4169e19274956988276987bf4d576d20e1b.m3u8
+
+#EXTINF:-1,Киномикс
+#EXTGRP:Кіно
+http://playlist.hmara.tv/2285c77b/c9a5389f1bc80621399905ab7d07144889f7ef86.m3u8
+
+#EXTINF:-1,КРТ
+#EXTGRP:Релігійні
+http://playlist.hmara.tv/2285c77b/6607172aac75348da606bf70353d7df37031f7ab.m3u8
+
+#EXTINF:-1,Кус-кус
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/871869a3554db69d3b9a762d8ee89564238fde8f.m3u8
+
+#EXTINF:-1,Малятко ТВ
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/dca9ce1adb28aa44c78093822aa79a9d7c553059.m3u8
+
+#EXTINF:-1,Мир
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/3569e69be0b3015ba3e131fd1f571114d98444c4.m3u8
+
+#EXTINF:-1,Мужской
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/753fd4d48bb63779d8db47c49e71493599cfc05f.m3u8
+
+#EXTINF:-1,МУЗ-ТВ
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/97d8abcb98a8f654ff84d6598432c96b4cac1131.m3u8
+
+#EXTINF:-1,Настоящее время
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/9c9abf16de19a45ec575d5588df261e19feb9268.m3u8
+
+#EXTINF:-1,Перший діловий
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/4441d6a5d65fc960a38e22333518760db67ab447.m3u8
+
+#EXTINF:-1,Пиксель
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/95ac11dfc4a5b4d5e406b6b9b34bd3e0dd953704.m3u8
+
+#EXTINF:-1,Плюс Плюс
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/808c6e3a749db6b4baf29dc34c33b4e4e313e3a4.m3u8
+
+#EXTINF:-1,Пятница!
+#EXTGRP:Музичні
+http://playlist.hmara.tv/2285c77b/918133bb29b565ecd6ed15992eac0a7c6a8b8171.m3u8
+
+#EXTINF:-1,Рада
+#EXTGRP:Інформаційні
+http://playlist.hmara.tv/2285c77b/b599b2536c51a3327269b4f3a59c4ae21d935201.m3u8
+
+#EXTINF:-1,Розпакуй
+#EXTGRP:Телемагазинні
+http://playlist.hmara.tv/2285c77b/30f906a997573c79b771c0a6d282fe465f14f226.m3u8
+
+#EXTINF:-1,Смайлик ТВ
+#EXTGRP:Дитячі
+http://playlist.hmara.tv/2285c77b/eed4420fea02cb09a846e4e25f81ad080fd13787.m3u8
+
+#EXTINF:-1,Телевсесвіт
+#EXTGRP:Розважальні
+http://playlist.hmara.tv/2285c77b/8c3f2200559237394a903fb209d0691a1c1fb87e.m3u8
+
+#EXTINF:-1,ЦК
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/4421d5482acfef917d979fee7fbb7d36ec6e5306.m3u8
+
+#EXTINF:-1,Че
+#EXTGRP:Загальні
+http://playlist.hmara.tv/2285c77b/5494c18c578f99e94ed4cfd24c571468f39725fc.m3u8
+
+#EXTINF:-1,Эко ТВ
+#EXTGRP:Пізнавальні
+http://playlist.hmara.tv/2285c77b/fdb9740407ea3e98b04bbbb1b61574f66ac58685.m3u8
+
+#EXTINF:-1,vatikan
+https://rvl.azureedge.net/channel3.mp3
+
+#EXTINF:-1,vatikan2
+https://rvl.azureedge.net/channel1.mp3
