@@ -1,3 +1,3 @@
 #EXTM3U 
-#EXTINF:-1,video
+#EXT-X-STREAM-INF:BANDWIDTH=1000000
 https://youtu.be/TCi9CqU2POY?list=PLSLl8EyjdU2hJIKi-WgFdt5eRTJreVx68
