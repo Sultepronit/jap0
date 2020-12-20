@@ -150,6 +150,7 @@ function word(){
 	tim++;
 	wn = (vyp(0,kss))+1;
 	$(".time").replaceWith("<p class='time'>"+tim+"</p>");
+		   if(tim<2){$(".time").append(" "+kss);}
 	$(".num").replaceWith("<p class='num'>"+wn+"</p>");
 	$(".transc").replaceWith("<p class='transc'> </p>");
 		if(np==0){
