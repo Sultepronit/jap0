@@ -145,13 +145,23 @@ if(if_==1){res="["+res+"]";}
 return res;
 }*/
 
+
 function word(){
 	if(bul==0){bul=1; np=vyp(0,1);
 	tim++;
+	//wn = (vyp(0,kss))+1;
+	///////////////
+	for(x=0;x<100;x++)
+	{
 	wn = (vyp(0,kss))+1;
+	//if(vp[wn][np+5]<2.1){continue;}
+	if(vp[wn][np+5]>2){continue;}
+	break;
+	}
+	////////////////
 	$(".time").replaceWith("<p class='time'>"+tim+"</p>");
-		   if(tim<2){$(".time").append(" "+kss);}
-	$(".num").replaceWith("<p class='num'>"+wn+"</p>");
+	if(tim<2){$(".time").append(" "+kss);}
+	$(".num").replaceWith("<p class='num'>"+wn+" : "+vp[wn][np+5]+"</p>");
 	$(".transc").replaceWith("<p class='transc'> </p>");
 		if(np==0){
 		$(".orig").replaceWith("<p class='orig'>"+vypka(wn)+"</p>");
