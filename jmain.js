@@ -4,6 +4,8 @@ var bul = 0;
 var ifa = 0;
 var np = 0;
 var a = new Audio();
+var bu = [0,0,0];
+var ki0 = 0;
 
 function vyp(b,e){ return( Math.round(Math.random()*(e-b))+b); }
 
@@ -147,19 +149,24 @@ return res;
 
 
 function word(){
+var bubu=0;
 	if(bul==0){bul=1; np=vyp(0,1);
 	tim++;
 	//wn = (vyp(0,kss))+1;
 	///////////////
 	for(x=0;x<100;x++)
 	{
-	wn = (vyp(0,kss))+1;
+	wn = vyp( 1,(kss-1) );
+	//wn = (vyp(3200,kss))+1;
 	//if(vp[wn][np+5]<2.1){continue;}
-	if(vp[wn][np+5]>2){continue;}
+	if(vp[wn][np+5]>2){ki0++; continue;}
+		for(y=1;y<tim;y++){	if(wn==bu[y]){bubu=1; ki0++; break;}	}
+		if(bubu){bubu=0; continue;}
+	bu[tim]=wn;
 	break;
 	}
 	////////////////
-	$(".time").replaceWith("<p class='time'>"+tim+"</p>");
+	$(".time").replaceWith("<p class='time'>"+tim+"("+ki0+")"+"</p>");
 	if(tim<2){$(".time").append(" "+kss);}
 	$(".num").replaceWith("<p class='num'>"+wn+" : "+vp[wn][np+5]+"</p>");
 	$(".transc").replaceWith("<p class='transc'> </p>");
