@@ -5,12 +5,22 @@ var ifa = 0;
 var np = 0;
 var a = new Audio();
 var bu = [0,0,0];
-var tip = -1;
 var ki0 = 0;
-var bu0=0;
-var kanpys0=0;
 
 function vyp(b,e){ return( Math.round(Math.random()*(e-b))+b); }
+
+/*function vsika(ky=1)
+{
+var e=0, res=mms[ky][0][e++];
+if(mms[ky][0][0]=="["){res+=mms[ky][0][e++]; }
+for(;mms[ky][0][e];e++)
+{
+if(mms[ky][0][e]=="]"){res+="]"; break;}
+if(mms[ky][0][e]=="("){res+=" ("+mms[ky][0][++e]; continue;}
+res+="/"+mms[ky][0][e];
+}e--;
+return res;
+}*/
 
 function vsika(ky=1)
 {
@@ -89,7 +99,7 @@ if(mms[ky][1][e]==1){continue;}
 if(mms[ky][1][e]=="("){res+=" ("+mms[ky][1][++e]; continue;}
 res+="/"+mms[ky][1][e];
 }e--;
-//if( vyp(0,1) ){res=wanakana.toKatakana(res);}
+if( vyp(0,1) ){res=wanakana.toKatakana(res);}
 return res;
 }
 
@@ -106,14 +116,12 @@ allau[eau]=mms[wn][1][x];
 //var a = new Audio();
 function sou0(k)
 {var a = new Audio();
-a.src="sound/"+allau[k]+'.mp3';
-a.play();
-a.onerror = function(){
+//var akan=mms[wn][0][0]; if(akan=="["){akan=mms[wn][0][1];}
 var kan00=vypka(1);
+//$(".transl").append("SFSDF"+wn+kan00);
 a.src='http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kana='+allau[k]+'&kanji='+kan00;
 a.play();
 a.onended = function(){ if(k<eau){sou0(++k);} }
-}
 }
 
 function sou(vo)
@@ -122,88 +130,59 @@ allauf();
 if(eau>-1){ sou0(0); }
 //$(".transl").append("SFSDF"+wn);
 }
-var kann='';
-function word(pm){
-var bubu=0;
 
-	if(bul==0){bul=1; //np=vyp(0,1);
-	np=0;
-	tim++; tip++;
-	if(tip>kss-3){tip=0;
-	//$(".main").replaceWith(vp);
-	var res='';
-	for(x=1;x<kss;x++)
-	{
-		//res+=vypka(x);
-		res+="<p class='res'>["+x+", "+vp[x][1]+", "+vp[x][2]+"], <p>";
-	}
-	res+="<p style='font-size:4em'>ОМЕДЕТОО&#128516! — Вітаю!</p>";
-	res+="<p style='font-size:4em'>Тобі — чомк&#128536, мені — скрін!</p>";
-	a.src="sound/omedetou.mp3";
-	a.play();
-	$(".main").replaceWith(res);
-	}
+/*function vypka()
+{var e=0, mas1=['',''], res="ura";
+var if_=0;
+for(x=0;mms[wn][0][x];x++,e++)
+{
+if(mms[wn][0][x]=="["){if_=1; e--;continue;}
+if(mms[wn][0][x]=="("){break;}
+if(mms[wn][0][x]=="]"){ break;}
+mas1[e]=mms[wn][0][x];
+}e--;
+res=mas1[ (vyp(0,e)) ];//+' '+e;
+if(if_==1){res="["+res+"]";}
+//res=mas1;
+return res;
+}*/
+
+
+function word(){
+var bubu=0;
+	if(bul==0){bul=1; np=vyp(0,1);
+	tim++;
 	//wn = (vyp(0,kss))+1;
 	///////////////
 	for(x=0;x<100;x++)
 	{
 	wn = vyp( 1,(kss-1) );
-		if( kanpys0<(kss-ksS) ){
-			if(kanpys0*4<tip){
-				if(wn<ksS){continue;}	}	}
-		if(wn==bu0){continue;}
-		for(y=1;y<tip;y++){	if(wn==bu[y]){bubu=1; ki0++; break;}	}
+	//wn = (vyp(3200,kss))+1;
+	//if(vp[wn][np+5]<2.1){continue;}
+	if(vp[wn][np+5]>2){continue;}
+		for(y=1;y<tim;y++){	if(wn==bu[y]){bubu=1; ki0++; break;}	}
 		if(bubu){bubu=0; continue;}
-	bu[tip]=wn;
-	bu0=wn;
-	if(pm<0){tip--;}
-	//vp[6][np+1]++;
+	bu[tim]=wn;
 	break;
 	}
 	////////////////
-	$(".time").replaceWith("<p class='time'>"+tim+"/"+tip+"/"+kss+"</p>");
-	//if(tim<2){$(".time").append(" "+kss);}
+	$(".time").replaceWith("<p class='time'>"+tim+"("+ki0+")"+"</p>");
+	if(tim<2){$(".time").append(" "+kss);}
 	$(".num").replaceWith("<p class='num'>"+wn+" : "+vp[wn][np+5]+"</p>");
 	$(".transc").replaceWith("<p class='transc'> </p>");
-	$(".gif").replaceWith("<div class='gif'> </div>");
 		if(np==0){
-		if(wn<ksS){	$(".orig").replaceWith("<p class='orig'>"+vypka(wn)+"</p>");	}
-		else{ $(".orig").replaceWith("<p class='orig'>"+vsit(wn)+"</p>");	}
+		$(".orig").replaceWith("<p class='orig'>"+vypka(wn)+"</p>");
 		$(".transl").replaceWith("<p class='transl'> </p>");
-		if(wn<ksS)
-		{
-		$(".transc").replaceWith("<div class='transc'>");
-		$(".transc").append( atoa1( vsit(wn) ),"</div>" );
-		if(ifa){ sou(); }
-		}
-		else{kanpys0++;}
-		
 		}
 		else{
 		$(".orig").replaceWith("<p class='orig'> </p>");
 		$(".transl").replaceWith("<p class='transl'>"+mms[wn][2]+"</p>");
 		}
 	}else{bul=0;
-	if(pm>0)
-	{
-		vp[wn][np+1]++;
-	}
-	else
-	{
-		vp[wn][np+1]--;
-	}
-	//$(".transc").replaceWith("<p class='transc'>"+vsit(wn)+"</p>");
-	if(wn<ksS){	$(".orig").replaceWith("<p class='orig'>"+vsika(wn)+"</p>");	}
-	else{ $(".orig").replaceWith("<p class='orig'>"+vsit(wn)+"</p>");	}
-	//$(".orig").replaceWith("<p class='orig'>//"+vsika(wn)+"</p>");
+	$(".transc").replaceWith("<p class='transc'>"+vsit(wn)+"</p>");
+	$(".orig").replaceWith("<p class='orig'>"+vsika(wn)+"</p>");
 		if(np==0){
 		$(".transl").replaceWith("<p class='transl'>"+mms[wn][2]+"</p>");
-		if(wn>=ksS){
-		//$(".gif").append("<img class='k2' src='kanji-wp/1"+mms[wn][1]+".gif'>");
-		$(".orig").append("<img class='k2' src='kanji-wp/1"+mms[wn][1]+".gif'>");
-		//$(".gif").replaceWith("<img class='k2' src='kanji-wp/1"+mms[wn][1]+".gif'>");
-		}
-		
 		}
 		else{
 		//$(".orig").replaceWith("<p class='orig'>"+vsika(wn)+"</p>");
@@ -217,9 +196,7 @@ var main = function() {
 
 word();
 
-$("button.bb").on("click", function(event){ word(0); });
-$("button.bm").on("click", function(event){ word(-1); });
-$("button.bp").on("click", function(event){ word(1); });
+$("button.bm").on("click", function(event){ word(); });
 $("button.bsou").on("click", function(event){
 	if(ifa==0){ifa=1; document.getElementById("bs").style.color = "blue"; sou();
 	}else{ifa=0; document.getElementById("bs").style.color = "red"; a.pause(); a.currentTime = 0.0;}
