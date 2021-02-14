@@ -159,7 +159,7 @@ var bubu=0;
 	wn = vyp( 1,(kss-1) );
 	//wn = (vyp(3200,kss))+1;
 	//if(vp[wn][np+5]<2.1){continue;}
-	if(vp[wn][np+5]>2){continue;}
+	if(vp[wn][np+5]>2){ ki0++; continue;}
 		for(y=1;y<tim;y++){	if(wn==bu[y]){bubu=1; ki0++; break;}	}
 		if(bubu){bubu=0; continue;}
 	bu[tim]=wn;
