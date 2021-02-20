@@ -23,9 +23,23 @@ body {
 	float: right;
 }
 
-.bm {
+.bb {
 	width: 100%;
 	height: 200px;
+}
+
+.bp {
+	width: 46%;
+	height: 200px;
+	background-color: green;
+	margin: 2%;
+}
+
+.bm {
+	width: 45%;
+	height: 200px;
+	background-color: red;
+	margin: 2%;
 }
 
 .bsou {
@@ -41,13 +55,30 @@ body {
 }
 
 .transc {
-	/*font-size: 1.5em;*/
 	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
+	margin-left:10%;
+
+}
+
+.ccc {
+
 }
 
 .transl {
 	font-size: 1.4em;
 	text-align: center;
+	clear: both;
+}
+
+img {
+width: 1.6em;
+}
+
+.transl img {
+width: 70%;
+clear: both;
 }
 
 .gr {color: gray;} /*#999999;}*/
@@ -57,3 +88,47 @@ body {
 .ge {color: green;}
 
 .bl {color: blue;}
+
+.js {
+	/*float: none;*/
+	text-align: center;
+	margin: 0px;
+	/*clear: both;*/
+	/*display: block;
+	margin-left: auto;
+    margin-right: auto;*/
+}
+
+.jw {
+	float: left;
+}
+.trs {
+	/*height: 10px;*/
+	margin: 0;
+	font-family: "Arial";
+	font-size: 1em;
+	text-align: center;
+	margin-bottom: -0.4em;
+}
+
+.jj {
+	margin: 0;
+	font-size: 2em;
+	text-align: center;
+}
+
+.blu{color: blue;}
+.red{color: red;}
+.zel{color: green;}
+
+
+.res {
+font-size: 4em;
+float: left;
+/*margin: 1%;*/
+}
+
+.resx {
+font-size: 3.5em;
+clear:both;
+}
